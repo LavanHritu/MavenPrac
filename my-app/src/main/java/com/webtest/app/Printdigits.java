@@ -15,12 +15,16 @@ public class Printdigits {
 
     public void getnumber(int a, int b)
     {
-        int nos;
+        //int nos;
+        int j;
+
         System.out.println("Print number from 1 to 10 :");
-        for(int i=a;i<=b;i++)
-        {
-            System.out.println(i);
+        do{
+
+            System.out.println(a);
+            a++;
         }
+        while(a <=b);
 
 
     }
